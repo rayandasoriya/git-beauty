@@ -1,0 +1,6 @@
+{
+  "version": 2,
+  "alias": "gitbeauty",
+  "name": "gitbeauty",
+  "builds": [{ "src": "package.json", "use": "@now/next" }]
+}
