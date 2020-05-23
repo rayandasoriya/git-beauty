@@ -2,8 +2,6 @@
 
 A nicer look at your GitHub Profile! With charts!
 
-![demo](https://raw.githubusercontent.com/rayandasoriya/gitbeauty/master/static/og.png)
-
 Built with:
 
 - [Next.js](https://nextjs.org/)
@@ -17,25 +15,11 @@ Built with:
 1. Install dependencies
 
    ```bash
-   yarn
+   npm install
    ```
 
 2. Fire up the server and watch files
 
    ```bash
    npm run dev
-   ```
-
-## Deployment
-
-1. Install the Now CLI
-
-   ```bash
-   npm install -g now
-   ```
-
-2. Deploy!
-
-   ```bash
-   now
    ```
