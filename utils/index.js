@@ -1,6 +1,3 @@
-import mockUserData from './mockUserData';
-import mockRepoData from './mockRepoData';
-import mockLangData from './mockLangData';
 import langColors from './langColors';
 import buildChart from './buildChart';
 
@@ -21,12 +18,4 @@ const borderColor = [
   'rgba(255, 159, 64, 1)',
 ];
 
-export {
-  // mockUserData,
-  // mockRepoData,
-  // mockLangData,
-  langColors,
-  backgroundColor,
-  borderColor,
-  buildChart,
-};
+export { langColors, backgroundColor, borderColor, buildChart };

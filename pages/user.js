@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import { Head, UserInfo, Charts, Repos, Footer, Corner, Error, RateLimit } from '../components';
 import GhPolyglot from 'gh-polyglot';
-// import { mockUserData, mockLangData, mockRepoData } from '../utils';
 
 const User = props => {
   const username = props.query.id;
@@ -72,7 +71,6 @@ const User = props => {
     getUserData();
     getLangData();
     getRepoData();
-
   }, []);
 
   return (

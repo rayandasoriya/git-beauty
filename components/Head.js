@@ -4,8 +4,6 @@ import PropTypes from 'prop-types';
 
 const defaultTitle = 'gitbeauty';
 const defaultDescription = 'A nicer look at your GitHub profile. With charts!';
-const defaultOGURL = 'https://gitbeauty.rayandasoriya.now.sh';
-const defaultOGImage = 'https://gitbeauty.rayandasoriya.now.sh/static/og.png';
 
 const Head = props => (
   <NextHead>
@@ -18,19 +16,14 @@ const Head = props => (
     <link rel="icon" type="image/png" sizes="32x32" href="/static/favicons/favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="/static/favicons/favicon-16x16.png" />
     <link rel="manifest" href="/static/favicons/site.webmanifest" />
-    <link rel="mask-icon" href="/static/favicons/safari-pinned-tab.svg" color="#1A1E22" />
     <meta name="msapplication-TileColor" content="#1A1E22" />
     <meta name="theme-color" content="#0070f3" />
-    <meta property="og:url" content={props.url || defaultOGURL} />
     <meta property="og:title" content={props.title || defaultTitle} />
     <meta property="og:description" content={props.description || defaultDescription} />
-    <meta name="twitter:site" content={props.url || defaultOGURL} />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:image" content={props.ogImage || defaultOGImage} />
     <meta name="twitter:description" content={props.description || defaultDescription} />
     <meta name="twitter:creator" content={'@rayandasoriya'} />
     <meta name="twitter:title" content={props.title || defaultTitle} />
-    <meta property="og:image" content={props.ogImage || defaultOGImage} />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
   </NextHead>
